@@ -1,0 +1,53 @@
+*{
+    box-sizing:content-box;
+    background-color:#260347;
+    font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
+}
+
+header{
+    margin: -8px -8px 0px -8px;
+    background-color: #ebe70c;
+   
+}
+
+#heading{
+    background-color:#260347;
+    color:#ebe70c;
+    padding: 20px 3px 20px 3%;
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+}
+
+.movie-item{ 
+  background-clip: padding-box;
+  display: inline-block;
+  position: relative;
+  margin: 10px 0px 0px 5%;
+  border: 1px dotted black;
+  animation: 340ms slide-in;
+  border-left: 5px solid #ebe70c;
+}
+
+.movie-item-name{
+    padding-left: 5px;
+    color: #ebe70c;
+}
+
+
+
+.poster{
+    width: 250px;
+    height: 200px;
+    border-radius: inherit;
+}
+
+
+
+@keyframes slide-in { 
+    from{
+        margin-left: 10%;
+    }
+    to{
+        margin-left: 5%;
+    }
+}

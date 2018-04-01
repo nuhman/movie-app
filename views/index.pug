@@ -1,0 +1,14 @@
+html
+    head 
+        link(
+            rel= "stylesheet",
+            href="../styles/style.css" 
+        )
+    body 
+        header
+            h1#heading Movie-App
+        each movie in movies
+            .movie-item
+                img.poster(src=movie.url)
+                p.movie-item-name  #{movie.name}
+            
