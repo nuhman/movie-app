@@ -1,18 +1,18 @@
 module.exports = [
     {
-        name:"Star trek",
+        name:"Star Trek",
         url:"./images/startrek.jpg"
     },
     {
-        name:"dunkirk",
+        name:"Dunkirk",
         url:"./images/dunkirk.jpg"
     },
     {
-        name:"inception",
+        name:"Inception",
         url:"./images/inception.jpg"
     },
     {
-        name:"shawshank redemption",
+        name:"Shawshank Redemption",
         url:"./images/Shawshank_Redemption.jpg"
     }
 ];
